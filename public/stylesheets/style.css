@@ -1,0 +1,65 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  height: 100%; }
+
+a {
+  color: #00B7FF; }
+
+main {
+  padding: 50px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  width: 500px; }
+
+header {
+  display: block;
+  margin: 0;
+  padding: 10px 50px;
+  font-size: 40px;
+  background-color: #009b00; }
+  header img {
+    height: 50px; }
+  header .fa {
+    float: right;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white; }
+    header .fa a {
+      color: white; }
+      header .fa a :visited {
+        color: white; }
+
+footer {
+  display: block;
+  margin: 0;
+  padding: 10px 50px;
+  font-size: 20px;
+  background-color: black;
+  color: gray;
+  text-align: right;
+  position: sticky; }
+  footer .fa {
+    float: right;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white; }
+    footer .fa a {
+      color: white; }
+      footer .fa a :visited {
+        color: white; }
+
+form div {
+  margin: 10px; }
+
+form input, form textarea {
+  width: 300px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #009b00; }
+
+form .button {
+  border: none; }

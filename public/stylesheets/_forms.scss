@@ -1,0 +1,16 @@
+form {
+  div {
+    margin: 10px;
+  }
+
+  input, textarea {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid $green;
+  }
+
+  .button {
+    border: none;
+  }
+}

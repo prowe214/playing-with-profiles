@@ -1,0 +1,26 @@
+header {
+  display: block;
+  margin: 0;
+  padding: 10px 50px;
+  font-size: 40px;
+  background-color: $green;
+
+  img {
+    height: 50px;
+  }
+
+  .fa {
+    float: right;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+
+    a {
+      color: white;
+
+      :visited {
+        color: white;
+      }
+    }
+  }
+}

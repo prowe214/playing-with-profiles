@@ -1,0 +1,25 @@
+footer {
+  display: block;
+  margin: 0;
+  padding: 10px 50px;
+  font-size: 20px;
+  background-color: black;
+  color: gray;
+  text-align: right;
+  position: sticky;
+
+  .fa {
+    float: right;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+
+    a {
+      color: white;
+
+      :visited {
+        color: white;
+      }
+    }
+  }
+}

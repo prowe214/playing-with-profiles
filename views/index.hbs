@@ -1,0 +1,19 @@
+<h1>.profile</h1>
+<p>Welcome to .profile</p>
+
+{{#if id}}
+  <h2>Welcome back, {{name}}!</h2>
+{{else}}
+  <form class="login" action="/" method="post">
+    <div >
+      <input type="email" placeholder='email' name="email" >
+    </div>
+    <div >
+      <input type="password" placeholder='password' name="password" >
+    </div>
+    <div >
+      <input class="button" type="submit" value="Log In">
+    </div>
+  </form>
+  <a href="/register">Don't have an account? Sign up now for only $1000!</a>
+{{/if}}
